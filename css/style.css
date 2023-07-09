@@ -1,0 +1,197 @@
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-bar{
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    font-family: Roboto, Arial;
+    font-size: 16px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.div-bar{
+    padding-left: 20px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+.link-nav{
+    text-decoration: none;
+}
+.link-nav:link {
+    color: white;
+}
+
+/* visited link */
+.link-nav:visited {
+    color: white;
+}
+
+/* mouse over link */
+.link-nav:hover {
+    color: lightskyblue;
+}
+
+/* selected link */
+.link-nav:active {
+    color: white;
+}
+
+.info{
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    background-image: url(../pictures/jazz.webp);
+    background-size: cover;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    user-select: none;
+
+    
+}
+.name{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.heading{
+    font-family:'acta-display', serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    padding-top: 40px;
+    margin-top: 0px;
+    user-select: none;
+
+} 
+
+p{            
+    font-family: Roboto, Arial;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    padding-left: 40px;
+    max-width: 1200px;
+    user-select: none;
+        /* width: 1200px; */
+}
+
+.pre-prints{
+    margin-top: 30px;
+}
+.information{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph-Uri{
+    width: 430px;
+    font-size: 22px;
+    color: white;
+    font-weight:300;
+    line-height: 26px;
+    margin-top:0px;
+
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.icon{
+    height: 26px;
+    width: 26px;
+    border-radius: 10px;
+    margin-left: 15px;
+} 
+.icon:hover{
+    cursor: pointer;
+    transform: scale(1.40)
+}
+
+.image-uri{
+    margin-top: 80px;
+    height: 240px;
+    border-radius: 20px;
+}
+/* resarch ******************************** */
+
+.sub-heading{
+text-align: center;
+font-family: 'Arial', sans-serif;
+font-size: 11px;
+letter-spacing: 3px;
+color: #88888a;
+text-transform: uppercase;
+margin-bottom: 30px;
+user-select: none;
+}
+
+ul{
+    margin: 0px;
+    font-family: Roboto, Arial;
+    /* padding-bottom: 15px; */
+    line-height: 20px;
+    list-style-image: url('../pictures/green.png');
+    font-weight: 500;
+    max-width: 1200px;
+    user-select: none;
+
+}
+li{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+
+}
+
+.link{
+    text-decoration: none;
+}
+.link:link {
+    color: rgb(15, 12, 187);
+}
+
+/* visited link */
+.link:visited {
+    color: rgba(5, 139, 34, 0.868);
+}
+
+.link:active{
+    font-size: 110%;
+}
+.footer{
+    font-family: Roboto, Arial;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding-left: 5px;
+    margin-top:15px;
+}
+
+.teaching-ul{
+    margin: 0px;
+    padding-bottom: 0px;
+}

@@ -1,0 +1,31 @@
+/* p{
+    background-image: url("orange.jpg");
+}    background-image: url("img.jpg"); */
+
+/* .top-section{
+    background-image: url("medium1280x833.jpg");
+} */
+
+
+.top-section{ 
+    background-repeat: no-repeat;
+    background-image: url("medium1280x833.jpg");
+    background-size:cover;
+    /* background-position-x: 50%;
+    background-position-y: center; */
+    
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+/* p{
+    background-image: url("medium1280x833.jpg");
+    background-size:cover;
+    background-position:80%;
+    filter:brightness;
+} */
